@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
         }
     }
 
-    //获取真实路径
+    //获取真实路径啊啊啊
     private String getRealPathFromURI(Uri contentURI) {
         String result;
         Cursor cursor = getContentResolver().query(contentURI, null, null, null, null);
